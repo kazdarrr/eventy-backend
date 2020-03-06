@@ -1,9 +1,5 @@
-# Eventy Backend
-
 # Github Summary:
 Definitions:
-~~~~~~~~~~~~
-
 Git / SVN
 Git is a distributed version control system. 
  - VCS: Keeps track of changes to content making it possible to recover files and revert to previous versions.
@@ -17,8 +13,6 @@ GitHub is a service that provides Git repository hosting to insure collaboration
 
 
 Git Project Sections:
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
 1/ Git directory (PROJECT-PATH/.git/)
 This is where Git stores everything it needs to accurately track the project. This includes metadata and an object database which includes compressed versions of the project files.
 
@@ -41,14 +35,12 @@ A file (also called “index”, “stage”, or “cache”) that stores inform
 
 
 Installation: $ sudo apt-get install git
-~~~~~~~~~~~~~
+
 Get Help in Git: $ git help COMMAND
-~~~~~~~~~~~~~~~~
 
 
 
 Configure the Git Environment: $ git config 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1- System Configuration Variables: /etc/gitconfig              =>  $ git config --system  // Manual Creation in Need
 2- User Configuration Variables: ~/.gitconfig                  =>  $ git config --global
@@ -81,7 +73,7 @@ NOTE: If settings conflict, project-level conf > user-level conf > system-level 
 
 
 Initialize Git in a Project:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
  $ cd /PROJECT-REPOSITORY/
  $ git init
  $ git status  =>  Check if there is a git repository
@@ -117,7 +109,7 @@ NOTE: HEAD is the name of default commit
 
 
 GitHub:
-~~~~~~~
+
 
 #~ Add Your UserName To Git ~#
  $ git config --global user.username "aladinSridi"
